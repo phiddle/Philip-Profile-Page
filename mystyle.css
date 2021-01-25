@@ -1,0 +1,32 @@
+
+h3 {
+    color: rgb(22, 22, 23);
+}
+h1 {
+    text-align: center;
+    color: rgb(52, 52, 59);
+}
+h2 {
+    color: rgb;
+}
+.Philip1 {
+   height: 200px;
+   width: 200px;
+}
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+.watermarked {
+    padding-left: 180px;
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcurlytales.com%2Fwp-content%2Fuploads%2F2020%2F11%2FDisneycruise.jpeg&imgrefurl=https%3A%2F%2Fcurlytales.com%2Fdisney-cruise-line-opens-bookings-for-2022-with-mexico-bahamas-and-more-in-the-itinerary%2F&tbnid=t7GoUWgYYDoWwM&vet=12ahUKEwiTlIzy0LfuAhUTmhoKHY19AlwQMygEegUIARDVAQ..i&docid=7qqnN78NEbvmKM&w=900&h=506&q=disney%20cruise&client=safari&ved=2ahUKEwiTlIzy0LfuAhUTmhoKHY19AlwQMygEegUIARDVAQ");
+    width: 100vh;
+    height: 200px;
+    opacity: 0.5;
+}
+
+body {
+background-color: rgb(130, 132, 190);
+}
+
