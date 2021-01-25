@@ -1,4 +1,4 @@
- I'm currently working on HTMl
+ I'm currently working on HTML
 
 <!--
 **phiddle/phiddle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
