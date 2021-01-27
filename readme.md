@@ -4,7 +4,7 @@
 
 ## My name is Philip Edwards, I am studying a web development course with codenation and hope to move into a new career as a junior developer following the completion of this course.:smile::computer: 
 
-## learning HTML, CSS, node, react.....
+## Learning HTML, CSS, node, react.....
 
 ## Ask me about Movies, Marvel, Liverpool FC :soccer::trophy:
 
