@@ -8,7 +8,7 @@
 
 ## Ask me about Movies, Marvel, Liverpool FC :soccer::trophy:
 
-## 3 months ago you would have found me supporting adults and children with mental health issues.
+## 3 months ago you would have found me supporting adults and children with mental health support needs.
 
 ## To relax if thats possible I will watch a movie, I like most film types but mainly sci-fi, Thriller Marvel and true stories.
 
