@@ -1,4 +1,7 @@
 
+body, html {
+    height: 100%;
+}
 h3 {
     color: rgb(22, 22, 23);
 }
@@ -13,6 +16,8 @@ h2 {
 .Philip1 {
    height: 200px;
    width: 200px;
+   border: 2px solid black;
+   border-radius: 34px;
 }
 p {
     padding-left: 30px;
@@ -20,16 +25,63 @@ p {
     color: rgb(104, 101, 101);
 }
 .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding-left: 570px;
     height: 200px;
     width: 500px
 }
+.name {
+    text-align: left;
+    color: rgb(70, 66, 66);
+}
+
+
+.navbar {
+
+}
+/* .nvImg{
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+.nvBtn {
+    margin: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.nvBtn {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.nvBtn:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.nvBtn:active {
+	position:relative;
+	top:1px;
+}
+
 .watermarked {
    
-    padding-left: 200px;
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcurlytales.com%2Fwp-content%2Fuploads%2F2020%2F11%2FDisneycruise.jpeg&imgrefurl=https%3A%2F%2Fcurlytales.com%2Fdisney-cruise-line-opens-bookings-for-2022-with-mexico-bahamas-and-more-in-the-itinerary%2F&tbnid=t7GoUWgYYDoWwM&vet=12ahUKEwiTlIzy0LfuAhUTmhoKHY19AlwQMygEegUIARDVAQ..i&docid=7qqnN78NEbvmKM&w=900&h=506&q=disney%20cruise&client=safari&ved=2ahUKEwiTlIzy0LfuAhUTmhoKHY19AlwQMygEegUIARDVAQ");
+    padding-left: 50px;
     width: 300px;
-    height: 300px;
+    height: 400px;
 }
 .cast {
     height: 300px;
@@ -37,9 +89,31 @@ p {
     padding-left: 50px;
 }
 body {
-background-color: rgb(178, 178, 187);
-}
 
+background-color: rgb(19, 19, 26);
+}
+.hiTle{
+   color: dimgray;
+
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.lfcImg {
+    border: 2px solid white;
+}
+.imImg {
+    border: 2px solid white;
+}
+.unImg {
+    border: 2px solid white;
+}
+.alImg {
+    border: 2px solid white;
+}
 .hobbies {
     padding-left: 70px;
     height: 300px;
@@ -59,6 +133,12 @@ li {
     color: black;
     text-decoration: none;
 }
+.trailers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 iframe { 
+
     padding-left: 50px;
 }
