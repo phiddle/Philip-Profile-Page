@@ -1,61 +1,87 @@
-h3 {
-  color: rgb(22, 22, 23);
+* {
+  margin: 0;
+  padding: 0;
 }
-h1 {
+body {
+  background-image: url(./images/backTest.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.btn {
+  margin-top: 10%;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#name {
+  padding: 10px;
   text-align: left;
-  color: rgb(73, 73, 216);
-}
-h2 {
-  text-align: center;
-  color: blue;
+  color: white;
+  margin-left: 35px;
 }
 .Philip1 {
   height: 200px;
   width: 200px;
-  border-radius: 18px;
+  margin-left: 40px;
+  border-radius: 10px;
 }
-p {
-  padding-left: 30px;
+#intro {
+  padding-left: 45px;
   padding-right: 30px;
-  color: rgb(104, 101, 101);
+  color: white;
 }
-.title {
-  height: 400px;
-  width: 100%;
+.vidBox {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  justify-content: space-evenly;
 }
-.watermarked {
-  padding-left: 200px;
-  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcurlytales.com%2Fwp-content%2Fuploads%2F2020%2F11%2FDisneycruise.jpeg&imgrefurl=https%3A%2F%2Fcurlytales.com%2Fdisney-cruise-line-opens-bookings-for-2022-with-mexico-bahamas-and-more-in-the-itinerary%2F&tbnid=t7GoUWgYYDoWwM&vet=12ahUKEwiTlIzy0LfuAhUTmhoKHY19AlwQMygEegUIARDVAQ..i&docid=7qqnN78NEbvmKM&w=900&h=506&q=disney%20cruise&client=safari&ved=2ahUKEwiTlIzy0LfuAhUTmhoKHY19AlwQMygEegUIARDVAQ");
-  width: 300px;
-  height: 300px;
+.ingame {
+  margin: 10px;
+  border: black 5px solid;
 }
-.cast {
-  height: 300px;
-  width: 300px;
-  padding-left: 50px;
+.theCage {
+  margin: 10px;
+  border: black 5px solid;
 }
-body {
-  background-color: white;
+.teslaApp {
+  margin: 10px;
+  color: white;
+  border: black 5px solid;
+}
+.textBox {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  justify-content: space-evenly;
+}
+.ingameText {
+  color: white;
+  border: black 5px solid;
+  font-size: 20px;
+  width: 500px;
+}
+.theCageText {
+  color: white;
+  border: black 5px solid;
+  font-size: 20px;
+  width: 500px;
 }
 
-.hobbies {
-  padding-left: 70px;
-  height: 300px;
-  width: 300px;
-}
-
-li {
-  list-style-type: none;
-}
-li {
-  text-align: center;
-}
-
-li {
-  font-size: medium;
-  color: black;
-  text-decoration: none;
-}
-iframe {
-  padding-left: 50px;
+.teslaText {
+  color: white;
+  border: black 5px solid;
+  font-size: 20px;
+  width: 500px;
 }

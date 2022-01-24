@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  background-image: url(./images/cruiseBack.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.btn {
+  margin-top: 10%;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  color: white;
+}
+.about {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 20px;
+
+  color: white;
+}
+.dCruise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 20px;
+}
