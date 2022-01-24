@@ -37,6 +37,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -44,6 +45,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -51,6 +53,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+@media all and (max-width: 500px) {
 }

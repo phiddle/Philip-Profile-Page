@@ -39,10 +39,27 @@ body {
   padding-right: 30px;
   color: white;
 }
-.vidBox {
+.box1 {
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  justify-content: space-evenly;
+}
+.box2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  justify-content: space-evenly;
+}
+.box3 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding-left: 20px;
   justify-content: space-evenly;
 }
@@ -56,16 +73,9 @@ body {
 }
 .teslaApp {
   margin: 10px;
-  color: white;
   border: black 5px solid;
 }
-.textBox {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 20px;
-  justify-content: space-evenly;
-}
+
 .ingameText {
   color: white;
   border: black 5px solid;
@@ -84,4 +94,6 @@ body {
   border: black 5px solid;
   font-size: 20px;
   width: 500px;
+}
+@media all and (max-width: 700px) {
 }
