@@ -37,14 +37,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.hobbieFlex {
+.hobbie-Flex {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -53,6 +55,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
